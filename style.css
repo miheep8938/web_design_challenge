@@ -1,7 +1,119 @@
-.title{
-    color: #6AA6A3;  
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 900; 
-    padding-top: 25px; 
+* {
+  box-sizing:border-box;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  max-height: none; 
+  font-size:15px;
+  font-weight:bold;
+}
+
+/* .navbar-collapse {
+  position: absolute;
+  right: 5%;
+  font-size: small;
+} */
+
+
+.navbar .navbar-brand{
+  margin-left:30px;
+  font-weight:bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #1D807B;
+  color:#fff;
+  padding: inherit;
+}
+
+.navbar-brand:hover{
+  color:#fff !important;
+}
+
+.nav-link{
+  text-align:center;
+}
+
+
+
+.a{
+  color: #667583;
+  text-align: right;
+ 
+}
+
+button{
+  margin-right: 30px; 
+}
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focusring-color;
   }
 
+
+/* Content */
+.body{
+  background-color: #c6fcfa; 
+}
+
+.title{
+    color: #1D807B;  
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;  
+  }
+
+.box {
+  margin-top: 60px; 
+  margin-bottom: 62px; 
+  padding: 10px 20px 15px; 
+  color:black;
+  background-color:#fff; 
+
+}
+
+.row {
+  padding-bottom: 30px
+
+}
+
+.p1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#fff;
+}
+
+/* Images */
+img{
+  width:100% !important;
+  height:100% !important; 
+}
+
+/* Data Table */
+.dataframe{
+  background-color: #f3f3f3;
+  padding-left: 20px;
+}
+
+/* Comparison H5 */
+h5{
+  text-align: center;
+}
+
+
+/* Media Queries */
+@media(max-width: 800px){
+  .navbar-expand-lg{
+  background-color: #0BADA6 !important}
+  .navbar {
+    padding:inherit}
+  div .dropdown-menu{
+    background-color: #0BADA6;
+  }
+
+  
+  @media only screen and (max-width: 767px) {
+    .navbar-header {
+      background-color: #fff; /* white */
+    }
+
+  

@@ -11,7 +11,7 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!--CSS Link-->
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title> Landing Page</title>
+  <title> Humidity </title>
 </head>
 
 
@@ -49,7 +49,7 @@
             <li class="nav-item">
               <a class="nav-link" href="data.html">Data</a>
             </li>
-           
+
           </ul>
         </div>
       </nav>
@@ -63,19 +63,15 @@
     <div class="row">
       <div class="col-md-7">
         <div class="box">
-          <h3 class="title"> Summary: Latitude vs. X</h3>
+          <h3 class="title"> Cloudiness </h3>
           <hr>
-          <img src="Resources/assets/images/Fig1.png" class="float-left" alt="Max Temperature" width="250" height="250">
-          <p class="p1">The purpose of this project was to analyze how weather changes as you get closer to the equator.
-            To
-            accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
-            500 cities.
-          After assembling the dataset,we used Matplotlib to plot various aspects of the weather vs.
-            latitude.
-            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
-            source
-            data and visualizations created as part of the analysis, as well as explanations and descriptions of any
-            trends and correlations witnessed.
+          <img src="Resources/assets/images/Fig3.png" class="float-left" alt="Humidity" width="250" height="250">
+          <p class= 'p1'>
+            In the data, it contains how cloudiness could be related to its latitude and its correlation seems to be
+            weak but positive correlations found in both Hemispheres. Up to about 40 degree of Latitude, there seem to be more cloud-free
+            areas while there are more clouds in the areas above 40 degree of Latitude. Likewise, the Southern Hemisphere
+            shows similar trends. Up to about -20 degree of Latitude, there are more places recorded as no cloud while
+            its cloudiness of many regions above -20 to equator show 100% of clouds. 
           </p>
           <br>
         </div>
@@ -87,41 +83,40 @@
         <div class="box">
           <h3 class="title"> Visualization</h3>
           <hr>
-          
         </div>
-          <div class="row">
-            <div class="col-md-6 col-md-6">
-              <a href="max_temp.html"><img class="img img-responsive" src="Resources/assets/images/Fig1.png"
-                alt="Temp"></a>
-            </div>
-            <div class="col-md-6 col-md-6">
-              <a href="humidity.html"><img class="img img-responsive" src="Resources/assets/images/Fig2.png"
-                  alt="Humidity"></a>
-            </div>
+        <div class="row">
+          <div class="col-md-6 col-md-6">
+            <a href="max_temp.html"><img class="img img-responsive" src="Resources/assets/images/Fig1.png"
+                style="width:100%" alt="Temp"></a>
           </div>
-          <div class="row">
-            <div class="col-md-6 col-md-6">
-              <a href="cloudiness.html"><img class="img img-responsive" src="Resources/assets/images/Fig3.png"
-                  alt="Cloudiness"></a>
-            </div>
-            <div class="col-md-6 col-md-6">
-              <a href="wind_speed.html"><img class="img img-responsive" src="Resources/assets/images/Fig4.png"
-                  alt="Wind Speed"></a>
-            </div>
+          <div class="col-md-6 col-md-6">
+            <a href="humidity.html"><img class="img img-responsive" src="Resources/assets/images/Fig2.png"
+                style="width:100%" alt="Humidity"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-6">
+            <a href="cloudiness.html"><img class="img img-responsive" src="Resources/assets/images/Fig3.png"
+                style="width:100%" alt="Cloudiness"></a>
+          </div>
+          <div class="col-md-6 col-md-6">
+            <a href="wind_speed.html"><img class="img img-responsive" src="Resources/assets/images/Fig4.png"
+                style="width:100%" alt="Wind Speed"></a>
           </div>
         </div>
       </div>
-
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
