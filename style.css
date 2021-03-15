@@ -90,7 +90,6 @@ body{
   color:black;
   background-color:#fff !important
   ;
-
 }
 
 .box-1{
@@ -99,7 +98,6 @@ body{
   margin-bottom: 30px; 
   padding-top:5px;
   padding-left:5px;
-
 }
 
 
@@ -145,6 +143,19 @@ h6 {
   font-weight: bold;
   color:#fff;
 }
+
+.content { 
+  display: inline-block;
+  width:30px; 
+  padding-left:10px;
+   }
+   
+/* .foot { 
+  display: inline-block; 
+  line-height: 70px; 
+  vertical-align: top } */
+
+
 
 
 /* Media Queries */
