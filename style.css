@@ -165,5 +165,10 @@ h6 {
   .navbar {
     padding:inherit}
   div .dropdown-menu{
-    background-color: #0BADA6;
+    background-color: #0BADA6}
   }
+
+  @media screen and ( min-width: 1081px ) {
+    img.responsive { width: 400px; }
+    }
+    img.responsive { height: auto; }
