@@ -70,11 +70,11 @@ body{
   /* tags$head(tags$link(rel = "stylesheet", type = "text/css" ,href ="Resources/assets/images/bootstrap.min.css')) */
   height:800px;
   background-color:#78C2AD;
-  background-position:center;
-  position:relative;
+  /* background-position:center; */
+  /* position:relative;
   background-repeat: no-repeat; 
   background-image: url(hw_icon.jpg);
-  background-size:50px;
+  background-size:50px; */
 }
 
 .title{
@@ -170,10 +170,9 @@ h6 {
     display: flex;
     align-items: center;
   }
-  img.responsive { width: 50px; }
+  img.responsive { 
+    width: 10px;
+    height: auto; }
     }
-  img.responsive { height: auto; }
   }
 
-  /* @media screen and ( max-width: 800px ) {
-     */
