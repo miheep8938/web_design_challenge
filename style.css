@@ -159,16 +159,21 @@ h6 {
 
 
 /* Media Queries */
-@media(max-width: 800px){
+@media screen and (max-width: 800px){
   .navbar-expand-lg{
-  background-color: #0BADA6 !important}
+  background-color: #78C2AD !important}
   .navbar {
     padding:inherit}
   div .dropdown-menu{
-    background-color: #0BADA6}
+    background-color: #78C2AD}
+  .body {
+    display: flex;
+    align-items: center;
+  }
+  img.responsive { width: 50px; }
+    }
+  img.responsive { height: auto; }
   }
 
-  @media screen and ( min-width: 1081px ) {
-    img.responsive { width: 400px; }
-    }
-    img.responsive { height: auto; }
+  /* @media screen and ( max-width: 800px ) {
+     */
